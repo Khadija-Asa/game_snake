@@ -1,0 +1,9 @@
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+#snake {
+  width: 608px;
+  height: 608px;
+}
