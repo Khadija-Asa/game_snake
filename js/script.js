@@ -19,10 +19,7 @@ let down = new Audio();
 
 dead.src = "audio/dead.mp3";
 eat.src = "audio/eat.mp3";
-up.src = "audio/up.mp3";
-right.src = "audio/right.mp3";
-left.src = "audio/left.mp3";
-down.src = "audio/down.mp3";
+
 
 let snake = [];
 
@@ -121,6 +118,5 @@ function draw(){
 
 let game = setInterval(draw,130);
 
-
-
-
+// if (confirm("Rejouer ?"))
+// {document.location.reload();} 
